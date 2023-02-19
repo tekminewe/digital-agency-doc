@@ -19,9 +19,6 @@ jobs:
           version: 7
           run_install: false
 
-      - name: Build website
-        run: yarn build
-
       - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
@@ -38,6 +35,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Build website
+        run: yarn build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
