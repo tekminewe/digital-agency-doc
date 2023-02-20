@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Digital Agency Website Template',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'A simple, beautiful, and responsive website template for digital agencies.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -61,73 +61,28 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
-        title: 'My Site',
+        title: 'Maxime - Digital Agency Website Template',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Maxime - Digital Agency Website Template',
           src: 'img/logo.svg',
         },
         items: [
+          {to: 'https://www.tekminewe.com/product/digital-agency-website-template/', label: 'Get Template', position: 'right'},
+          {to: 'https://digital-agency-website-template.tekminewe.com', label: 'Live Demo', position: 'right'},
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
             position: 'right',
+            label: 'Docs',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} tekminewe.com`,
       },
       prism: {
         theme: lightCodeTheme,
