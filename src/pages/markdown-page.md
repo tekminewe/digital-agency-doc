@@ -1,7 +1,7 @@
 ---
-title: Markdown page example
+title: Digital Agency Website Template | Maxime
 ---
 
-# Markdown page example
+# Maxime - Digital Agency Website Template
 
 You don't need React to write simple standalone pages.
