@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_agency_doc=self.webpackChunkdigital_agency_doc||[]).push([[8782],{6725:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/digital-agency-website-template/blog/tags/docusaurus","allTagsPath":"/digital-agency-website-template/blog/tags","count":4}')}}]);
