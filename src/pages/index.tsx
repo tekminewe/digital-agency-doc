@@ -23,7 +23,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="https://digital-agency-website-template.tekminewe.com"
+            to="https://digital-agency-website-template.demo.tekminewe.com"
           >
             Live Demo
           </Link>

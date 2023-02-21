@@ -64,7 +64,7 @@ const config = {
         },
         items: [
           {to: 'https://www.tekminewe.com/product/digital-agency-website-template/', label: 'Get Template', position: 'right'},
-          {to: 'https://digital-agency-website-template.tekminewe.com', label: 'Live Demo', position: 'right'},
+          {to: 'https://digital-agency-website-template.demo.tekminewe.com', label: 'Live Demo', position: 'right'},
           {
             type: 'doc',
             docId: 'intro',
