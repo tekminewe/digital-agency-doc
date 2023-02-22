@@ -3,7 +3,7 @@ import Sidebar from "@theme-original/DocPage/Layout/Sidebar";
 
 export default function SidebarWrapper(props) {
   return (
-    <div>
+    <>
       <div style={{ marginBottom: "1rem" }}>
         <script
           async
@@ -21,6 +21,6 @@ export default function SidebarWrapper(props) {
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
       <Sidebar {...props} />
-    </div>
+    </>
   );
 }

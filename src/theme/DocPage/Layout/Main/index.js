@@ -3,7 +3,7 @@ import Main from "@theme-original/DocPage/Layout/Main";
 
 export default function MainWrapper(props) {
   return (
-    <div>
+    <>
       <div style={{ marginBottom: "1rem" }}>
         <script
           async
@@ -21,6 +21,6 @@ export default function MainWrapper(props) {
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
       <Main {...props} />
-    </div>
+    </>
   );
 }
