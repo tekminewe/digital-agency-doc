@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_agency_doc=self.webpackChunkdigital_agency_doc||[]).push([[999],{8264:e=>{e.exports=JSON.parse('{"title":"Features","slug":"/category/features","permalink":"/docs/category/features","navigation":{"previous":{"title":"Project Structure","permalink":"/docs/project-structure"},"next":{"title":"Theme","permalink":"/docs/features/theme"}}}')}}]);
