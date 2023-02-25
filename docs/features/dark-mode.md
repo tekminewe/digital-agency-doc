@@ -50,7 +50,7 @@ In this case, The dark mode toggle button will be hidden as well.
 
 ### Theme configuration
 
-| name         | description                                                                                                                                                                                                                      | values              |
+| Name         | Description                                                                                                                                                                                                                      | Values              |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | darkMode     | Method to toggle dark mode<br/>- If set to 'manual', the user can toggle dark mode by clicking the button<br/>- If set to 'system', the user's system preference will be used<br />- If set to 'off', dark mode will be disabled | manual, system, off |
 | defaultTheme | Default theme<br />- If set to 'light', the light theme will be used by default<br />- If set to 'dark', the dark theme will be used by default                                                                                  | dark, light         |
