@@ -35,14 +35,11 @@ const config = {
     locales: ["en"],
   },
 
-  headTags: [
+  scripts: [
     {
-      tagName: "script",
-      attributes: {
-        async: "true",
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4412421169773097",
-        crossorigin: "anonymous",
-      },
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4412421169773097",
+      async: true,
+      crossorigin: "anonymous",
     },
   ],
 
