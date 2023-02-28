@@ -40,10 +40,9 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Digital Agency Website Template | ${siteConfig.title}`}
+      title="Maxime"
       description="Complete and SEO-ready digital agency website template built with React, HTML5, CSS and a customisable theme. Free lifetime updates and support."
     >
       <HomepageHeader />
