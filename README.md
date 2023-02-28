@@ -1,41 +1,7 @@
-# Website
+# Digital Agency Website Template
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+**Maxime** is a complete modern website template for digital agencies, design studios, digital marketing agencies, web design and development agencies, startup businesses, software provider companies, etc. This template is perfect for anyone who wants to start an information technology-related company.
 
-### Installation
+# Official Documentations
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Please check the [official documentation](https://digital-agency-website-template.tekminewe.com) for more details.

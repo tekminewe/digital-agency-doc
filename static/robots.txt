@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digital-agency-website-template.tekminewe.com/sitemap.xml
