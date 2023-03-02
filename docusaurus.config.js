@@ -86,7 +86,7 @@ const config = {
             position: "right",
           },
           {
-            to: "https://digital-agency-website-template.demo.tekminewe.com",
+            to: "https://digital-agency-website-template-demo.tekminewe.com",
             label: "Live Demo",
             position: "right",
           },
